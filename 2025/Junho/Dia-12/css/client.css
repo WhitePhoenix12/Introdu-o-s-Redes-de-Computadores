@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: darkblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 95vh;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.painel{
+    width: 75vw;
+    height: 75vh;
+    background-color: black;
+    border: 0.5vw solid white;
+    border-radius: 20vh;
+}
+
+.titulo{
+    font-size: 5vw;
+    color: darkblue;
+    text-align: center;
+    text-shadow: 0.25vw 0.25vw 0.25vw white;
+    margin-bottom: 7.5vh;
+}
+
+.espaco{
+    margin-left: 15vw;
+}
+
+.texto{
+    font-size: 2.5vw;
+    color: white;
+    margin-bottom: 0.5vw;
+}
+
+input{
+    width: 45vw;
+    height: 7.5vh;
+    margin-bottom: 2vw;
+    border-radius: 3vh;
+    font-size: 1.5vw;
+}
+
+input:focus{
+    border: 0.3vw solid darkblue;
+    outline: none;
+}
+
+button{
+    width: 20vw;
+    height: 10vh;
+    font-size: 2vw;
+    border-radius: 3vh;
+    background-color: gray;
+    border: 0.25vw solid darkblue;
+}
+
+button:hover{
+    opacity: 0.5;
+    width: 21vw;
+    height: 10.5vh;
+}
